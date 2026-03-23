@@ -5,4 +5,4 @@ router = Router()
 
 @router.message(Command('help'))
 async def help_handler(message: types.Message):
-    await message.answer("Yordam")
+    await message.answer("Yordam!!")
